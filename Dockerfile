@@ -5,4 +5,4 @@ RUN mkdir /usr/src/app
 WORKDIR /usr/src/app
 VOLUME /usr/src/app
 
-CMD ["nodemon"]
+CMD ["nodemon", "-L"]
